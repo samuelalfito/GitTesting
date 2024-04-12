@@ -1,11 +1,17 @@
 # Git Push
 to commit a file, we firstly do an add file:
 
-```git add <file> /*add file one by one*/ OR git add . /*add all file*/```
+```git add <file> /*add file one by one*/
+OR
+git add . /*add all file*/```
 
 then do the commit:
 
-```git commit -m <message> /*give a proper message, referee: https://www.atlassian.com/git/glossary#commands*/```
+```git commit -m <message>
+ /*
+  give a proper message,
+  referee: https://www.atlassian.com/git/glossary#commands
+  */```
 
 finally, push updated changes.
 
