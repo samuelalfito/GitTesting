@@ -89,3 +89,6 @@ git revert <commit_code>
 ```
 
 to get commit_code, use git log.
+
+# Set SSH to github
+referee: https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278
