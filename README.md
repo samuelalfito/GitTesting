@@ -15,7 +15,6 @@ _Note: Harus login github di Vs Code (ada di settings atau Accounts)_
 _Note: Harus login github di terminal_
 
 Add satu per satu:
-
 `git add contoh1.txt`
 ![Git Add](images/cmd_add.png)
 `git commit -m "this is messages"`
@@ -24,7 +23,6 @@ Add satu per satu:
 ![Git Push](images/cmd_pushMain.png)
 
 Add semua perubahan:
-
 `git add .`
 ![Git Add](images/cmd_addAll.png)
 `git commit -m "this is messages"`
@@ -47,6 +45,7 @@ Upload perubahan:
 
 ### Update menggunakan Terminal
 `git pull`
+![Git Push](images/cmd_pull.png)
 
 ### Update menggunakan GitHub Desktop
 
