@@ -1,4 +1,28 @@
-# Git Clone
+# Bagaimana Git Bekerja
+
+git memiliki 2 tipe folder, folder global dan lokal.
+
+folder global adalah folder yang terdapat pada server (seperti github), dan folder lokal berada pada perangkat kita.
+
+## Kirim update dari lokal ke global
+`git add .`
+
+`git add contoh1.txt`
+
+`git commit -m "this is messages"`
+
+`git push origin main`
+
+## Ambil update dari global ke lokal
+`git pull`
+
+## Melihat perubahan
+`git log`
+
+## Membuat folder lokal dari folder global
+copy ssh-nya
+`git clone ssh`
+<!-- # Git Clone
 when you want to get the file access, you have to clone it to your local disk,
 ```
 git clone <link_ssh>
@@ -91,4 +115,4 @@ git revert <commit_code>
 to get commit_code, use git log.
 
 # Set SSH to github
-referee: https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278
+referee: https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278 -->
