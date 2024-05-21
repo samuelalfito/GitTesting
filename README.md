@@ -48,6 +48,10 @@ Upload perubahan:
 ![Git Push](images/cmd_pull.png)
 
 ### Update menggunakan GitHub Desktop
+Check Update:
+![Git Push](images/dstp_checkUpd.png)
+Get Update:
+![Git Push](images/dstp_getUpd.png)
 
 ## Melihat perubahan
 `git log`
