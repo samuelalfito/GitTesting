@@ -4,19 +4,37 @@ git memiliki 2 tipe folder, folder global dan lokal.
 
 folder global adalah folder yang terdapat pada server (seperti github), dan folder lokal berada pada perangkat kita.
 
-# Commit dengan Visual Studio Code
-![Navigate to Source Control](images/vsc_sc.npg)
-
-# Commit dengan Terminal
-
 ## Kirim update dari lokal ke global
-`git add .`
 
+### Commit dengan Visual Studio Code
+Note: Harus login github di Vs Code (ada di settings atau Accounts)
+![Navigate to Source Control](images/vsc_sc.png)
+![Commit](images/vsc_commit.png)
+
+### Commit dengan Terminal
+Note: Harus login github di terminal
+
+Add satu per satu:
 `git add contoh1.txt`
-
+![Git Add](images/cmd_add.png)
 `git commit -m "this is messages"`
-
+![Git Commit](images/cmd_commit.png)
 `git push origin main`
+![Git Push](images/cmd_pushMain.png)
+
+Add semua perubahan:
+`git add .`
+![Git Add](images/cmd_addAll.png)
+`git commit -m "this is messages"`
+![Git Commit](images/cmd_commitAll.png)
+`git push`
+![Git Push](images/cmd_push.png)
+Note: usahakan `git push origin main` agar tidak mengganggu branch lain.
+
+### Commit dengan Github Desktop
+![Git Add](images/cmd_addAll.png)
+![Git Commit](images/cmd_commitAll.png)
+![Git Push](images/cmd_push.png)
 
 ## Ambil update dari global ke lokal
 `git pull`
@@ -27,6 +45,10 @@ folder global adalah folder yang terdapat pada server (seperti github), dan fold
 ## Membuat folder lokal dari folder global
 copy ssh-nya
 `git clone ssh`
+
+# Proper messages (optional)
+referee: https://www.atlassian.com/git/glossary#commands
+
 <!-- # Git Clone
 when you want to get the file access, you have to clone it to your local disk,
 ```
