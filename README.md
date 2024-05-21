@@ -4,6 +4,11 @@ git memiliki 2 tipe folder, folder global dan lokal.
 
 folder global adalah folder yang terdapat pada server (seperti github), dan folder lokal berada pada perangkat kita.
 
+# Commit dengan Visual Studio Code
+![Navigate to Source Control](images/vsc_sc.npg)
+
+# Commit dengan Terminal
+
 ## Kirim update dari lokal ke global
 `git add .`
 
