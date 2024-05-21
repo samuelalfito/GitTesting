@@ -7,14 +7,15 @@ folder global adalah folder yang terdapat pada server (seperti github), dan fold
 ## Kirim update dari lokal ke global
 
 ### Commit dengan Visual Studio Code
-Note: Harus login github di Vs Code (ada di settings atau Accounts)
+_Note: Harus login github di Vs Code (ada di settings atau Accounts)_
 ![Navigate to Source Control](images/vsc_sc.png)
 ![Commit](images/vsc_commit.png)
 
 ### Commit dengan Terminal
-Note: Harus login github di terminal
+_Note: Harus login github di terminal_
 
 Add satu per satu:
+
 `git add contoh1.txt`
 ![Git Add](images/cmd_add.png)
 `git commit -m "this is messages"`
@@ -23,21 +24,31 @@ Add satu per satu:
 ![Git Push](images/cmd_pushMain.png)
 
 Add semua perubahan:
+
 `git add .`
 ![Git Add](images/cmd_addAll.png)
 `git commit -m "this is messages"`
 ![Git Commit](images/cmd_commitAll.png)
 `git push`
 ![Git Push](images/cmd_push.png)
-Note: usahakan `git push origin main` agar tidak mengganggu branch lain.
+_Note: usahakan `git push origin main` agar tidak mengganggu branch lain._
 
-### Commit dengan Github Desktop
-![Git Add](images/cmd_addAll.png)
-![Git Commit](images/cmd_commitAll.png)
-![Git Push](images/cmd_push.png)
+### Commit dengan GitHub Desktop
+_Note: Harus login github di GitHub Desktop_
+
+Centang File yang ingin di commit:
+![Git Add](images/dstp_add.png)
+Tambahkan sedikit keterangan:
+![Git Commit](images/dstp_commit.png)
+Upload perubahan:
+![Git Push](images/dstp_push.png)
 
 ## Ambil update dari global ke lokal
+
+### Update menggunakan Terminal
 `git pull`
+
+### Update menggunakan GitHub Desktop
 
 ## Melihat perubahan
 `git log`
