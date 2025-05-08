@@ -61,7 +61,7 @@ copy ssh-nya
 `git clone ssh`
 
 # Proper messages (optional)
-referee: https://www.atlassian.com/git/glossary#commands
+reference: https://www.atlassian.com/git/glossary#commands
 
 <!-- # Git Clone
 when you want to get the file access, you have to clone it to your local disk,
@@ -156,4 +156,4 @@ git revert <commit_code>
 to get commit_code, use git log.
 
 # Set SSH to github
-referee: https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278 -->
+reference: https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278 -->
